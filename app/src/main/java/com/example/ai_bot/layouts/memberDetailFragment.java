@@ -14,10 +14,10 @@ import com.example.ai_bot.layouts.dummy.DummyContent;
 /**
  * A fragment representing a single member detail screen.
  * This fragment is either contained in a {@link memberListActivity}
- * in two-pane mode (on tablets) or a {@link MemberDetailActivity}
+ * in two-pane mode (on tablets) or a {@link memberDetailActivity}
  * on handsets.
  */
-public class MemberDetailFragment extends Fragment {
+public class memberDetailFragment extends Fragment {
     /**
      * The fragment argument representing the item ID that this fragment
      * represents.
@@ -33,7 +33,7 @@ public class MemberDetailFragment extends Fragment {
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public MemberDetailFragment() {
+    public memberDetailFragment() {
     }
 
     @Override

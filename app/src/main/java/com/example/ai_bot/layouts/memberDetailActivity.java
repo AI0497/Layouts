@@ -16,7 +16,7 @@ import android.view.MenuItem;
  * item details are presented side-by-side with a list of items
  * in a {@link memberListActivity}.
  */
-public class MemberDetailActivity extends AppCompatActivity {
+public class memberDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,9 +53,9 @@ public class MemberDetailActivity extends AppCompatActivity {
             // Create the detail fragment and add it to the activity
             // using a fragment transaction.
             Bundle arguments = new Bundle();
-            arguments.putString(MemberDetailFragment.ARG_ITEM_ID,
-                    getIntent().getStringExtra(MemberDetailFragment.ARG_ITEM_ID));
-            MemberDetailFragment fragment = new MemberDetailFragment();
+            arguments.putString(memberDetailFragment.ARG_ITEM_ID,
+                    getIntent().getStringExtra(memberDetailFragment.ARG_ITEM_ID));
+            memberDetailFragment fragment = new memberDetailFragment();
             fragment.setArguments(arguments);
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.member_detail_container, fragment)

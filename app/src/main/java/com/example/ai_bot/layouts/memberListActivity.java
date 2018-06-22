@@ -1,4 +1,4 @@
-package com.layouts.ai_bot.layouts;
+package com.example.ai_bot.layouts;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,7 +19,7 @@ import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 
-import com.example.ai_bot.example.dummy.DummyContent;
+import com.example.ai_bot.layouts.dummy.DummyContent;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ import java.util.List;
  * An activity representing a list of Members. This activity
  * has different presentations for handset and tablet-size devices. On
  * handsets, the activity presents a list of items, which when touched,
- * lead to a {@link MemberDetailActivity} representing
+ * lead to a {@link memberDetailActivity} representing
  * item details. On tablets, the activity presents the list of items and
  * item details side-by-side using two vertical panes.
  */
@@ -108,16 +108,16 @@ public class MemberListActivity extends AppCompatActivity {
                 DummyContent.DummyItem item = (DummyContent.DummyItem) view.getTag();
                 if (mTwoPane) {
                     Bundle arguments = new Bundle();
-                    arguments.putString(MemberDetailFragment.ARG_ITEM_ID, item.id);
-                    MemberDetailFragment fragment = new MemberDetailFragment();
+                    arguments.putString(memberDetailFragment.ARG_ITEM_ID, item.id);
+                    memberDetailFragment fragment = new memberDetailFragment();
                     fragment.setArguments(arguments);
                     mParentActivity.getSupportFragmentManager().beginTransaction()
                             .replace(R.id.member_detail_container, fragment)
                             .commit();
                 } else {
                     Context context = view.getContext();
-                    Intent intent = new Intent(context, MemberDetailActivity.class);
-                    intent.putExtra(MemberDetailFragment.ARG_ITEM_ID, item.id);
+                    Intent intent = new Intent(context, memberDetailActivity.class);
+                    intent.putExtra(memberDetailFragment.ARG_ITEM_ID, item.id);
 
                     context.startActivity(intent);
                 }
