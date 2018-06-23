@@ -15,62 +15,71 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_personal_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
             android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
+
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/tv_gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/tv_height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tv_weight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/tv_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/tv_emergency_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/tv_joining_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/tv_fees_amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <View
+            android:id="@+id/view1"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/black" />
 
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/tv_days_visited"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
@@ -81,13 +90,13 @@
             android:orientation="horizontal">
 
             <Spinner
-                android:id="@+id/planets_spinner"
+                android:id="@+id/sp_dv_year"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5" />
 
             <Spinner
-                android:id="@+id/planets_spinner1"
+                android:id="@+id/sp_dv_month"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5" />
@@ -95,17 +104,19 @@
 
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/tv_days"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Textview" />
+
         <View
+            android:id="@+id/view2"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/black" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/tv_fees"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
@@ -116,24 +127,26 @@
             android:orientation="horizontal">
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/sp_fees_year"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.3" />
 
             <View
+                android:id="@+id/view3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.3" />
 
             <View
+                android:id="@+id/view4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.3" />
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/tv_fees_months"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
@@ -144,43 +157,43 @@
             android:background="@android:color/black" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/tv_schedule"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tv_monday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/tv_tuesday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/tv_wednesday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/tv_thursday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView18"
+            android:id="@+id/tv_friday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/tv_saturday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />

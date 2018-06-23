@@ -14,7 +14,7 @@ import android.view.MenuItem;
  * An activity representing a single member detail screen. This
  * activity is only used on narrow width devices. On tablet-size devices,
  * item details are presented side-by-side with a list of items
- * in a {@link memberListActivity}.
+ * in a {@link MemberListActivity}.
  */
 public class memberDetailActivity extends AppCompatActivity {
 
@@ -73,7 +73,7 @@ public class memberDetailActivity extends AppCompatActivity {
             //
             // http://developer.android.com/design/patterns/navigation.html#up-vs-back
             //
-            navigateUpTo(new Intent(this, memberListActivity.class));
+            navigateUpTo(new Intent(this, MemberListActivity.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
