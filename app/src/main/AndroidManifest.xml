@@ -41,6 +41,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ai_bot.layouts.memberListActivity" />
         </activity>
+        <activity
+            android:name=".AttendanceReport"
+            android:label="@string/title_activity_attendance_report"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ai_bot.layouts.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

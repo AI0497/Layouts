@@ -4,4 +4,5 @@
     <string name="title_member_list">members</string>
     <string name="title_member_detail">member Detail</string>
     <string name="title_activity_member_list">MemberListActivity</string>
+    <string name="title_activity_attendance_report">AttendanceReport</string>
 </resources>
