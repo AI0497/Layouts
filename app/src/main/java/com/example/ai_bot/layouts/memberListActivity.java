@@ -141,7 +141,7 @@ public class MemberListActivity extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(final ViewHolder holder, int position) {
-            holder.mImageViewPhoto.setImageResource(R.drawable.member);
+            holder.mImageViewPhoto.setImageResource(R.drawable.ic_launcher_background);
             holder.mTextViewName.setText(mValues.get(position).content);
 
             holder.itemView.setTag(mValues.get(position));
