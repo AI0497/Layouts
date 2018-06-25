@@ -18,58 +18,74 @@
             android:id="@+id/tv_personal_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            android:autoText="false"
+            android:fontFamily="monospace"
+            android:text="PERSONAL DETAIL"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
 
 
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Name" />
 
 
         <TextView
             android:id="@+id/tv_gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Gender" />
 
         <TextView
             android:id="@+id/tv_height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Height" />
 
         <TextView
             android:id="@+id/tv_weight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Weight" />
 
         <TextView
             android:id="@+id/tv_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Phone number" />
 
         <TextView
             android:id="@+id/tv_emergency_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Emergency Phone" />
 
         <TextView
             android:id="@+id/tv_joining_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Joinind Date" />
 
         <TextView
             android:id="@+id/tv_fees_amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="FEES AMOUNT" />
 
         <View
             android:id="@+id/view1"
@@ -82,7 +98,9 @@
             android:id="@+id/tv_days_visited"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="DAYS VISITED"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -107,7 +125,8 @@
             android:id="@+id/tv_days"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Textview" />
+            android:fontFamily="monospace"
+            android:text="Days " />
 
         <View
             android:id="@+id/view2"
@@ -119,7 +138,9 @@
             android:id="@+id/tv_fees"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="FEES"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -149,7 +170,8 @@
             android:id="@+id/tv_fees_months"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Months" />
 
         <View
             android:layout_width="match_parent"
@@ -160,43 +182,51 @@
             android:id="@+id/tv_schedule"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Wordkout Schedule"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
         <TextView
             android:id="@+id/tv_monday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Monday" />
 
         <TextView
             android:id="@+id/tv_tuesday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Tuesday" />
 
         <TextView
             android:id="@+id/tv_wednesday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Wednesday" />
 
         <TextView
             android:id="@+id/tv_thursday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Thursday" />
 
         <TextView
             android:id="@+id/tv_friday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Friday" />
 
         <TextView
             android:id="@+id/tv_saturday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="monospace"
+            android:text="Saturday" />
 
 
     </LinearLayout>
