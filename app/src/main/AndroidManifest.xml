@@ -68,6 +68,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ai_bot.layouts.MainActivity" />
         </activity>
+        <activity android:name=".attendance_list"></activity>
     </application>
 
 </manifest>
