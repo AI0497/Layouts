@@ -21,7 +21,8 @@
             android:autoText="false"
             android:fontFamily="monospace"
             android:text="PERSONAL DETAIL"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textStyle="bold" />
 
         <View
             android:id="@+id/view5"
@@ -88,14 +89,14 @@
             android:text="FEES AMOUNT" />
 
 
-
         <TextView
             android:id="@+id/tv_days_visited"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:text="DAYS VISITED"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textStyle="bold" />
 
         <View
             android:id="@+id/view1"
@@ -132,14 +133,14 @@
             android:text="Days " />
 
 
-
         <TextView
             android:id="@+id/tv_fees"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:text="FEES"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textStyle="bold" />
 
         <View
             android:id="@+id/view2"
@@ -185,7 +186,8 @@
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:text="Wordkout Schedule"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textStyle="bold" />
 
         <View
             android:layout_width="match_parent"
