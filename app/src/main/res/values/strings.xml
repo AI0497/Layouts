@@ -5,4 +5,5 @@
     <string name="title_member_detail">member Detail</string>
     <string name="title_activity_member_list">MemberListActivity</string>
     <string name="title_activity_attendance_report">AttendanceReport</string>
+    <string name="title_activity_fees">fees</string>
 </resources>
